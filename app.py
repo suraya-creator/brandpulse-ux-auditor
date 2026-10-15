@@ -141,7 +141,7 @@ brand_context = st.sidebar.text_area(
     placeholder="Describe the goals, target audience, or specific requirements..."  
 )  
   
-uploaded_file = st.sidebar.file_picker(  
+uploaded_file = st.sidebar.file_uploader(  
     "Upload Brand Artifact",  
     type=["png", "jpg", "jpeg", "webp"],  
     help="Upload a screenshot of your landing page, mobile UI, or component layout"  
