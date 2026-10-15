@@ -230,6 +230,4 @@ else:
                 if res.pillars.uxAndAccessibility.lowContrastElements:  
                     st.write("**Identified Low-Contrast Flagged Elements:**")  
                     lc_df = pd.DataFrame([item.model_dump() for item in res.pillars.uxAndAccessibility.lowContrastElements])  
-                    st.dataframe(lc_df, use_container_width=True)  
-  
-  
+                    st.dataframe(lc_df, use_container_width=True)
