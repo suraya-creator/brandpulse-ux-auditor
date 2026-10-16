@@ -109,7 +109,7 @@ def run_brandpulse_audit(uploaded_file, api_key: str, brand_context: Optional[st
     )  
   
     response = client.models.generate_content(  
-         model="gemini-3.8-flash", 
+         model="gemini-2.5-pro", 
         contents=[image, prompt_text],  
         config=types.GenerateContentConfig(  
             system_instruction=system_instruction,  
